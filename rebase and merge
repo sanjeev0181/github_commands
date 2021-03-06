@@ -1,0 +1,13 @@
+git merge
+- Is a non-destructive operation
+- Existing branches are not changed in any way
+- Creates a new merge commit in the feature branch
+
+syntax:- git merge master
+
+git rebase
+- Moves the entire feature branch to begin on the tip of the master branch
+- Re-writes the project history
+- We get much cleaner and linear project history
+
+syntax:- git rebase master
